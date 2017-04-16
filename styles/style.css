@@ -1,0 +1,100 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+} 
+
+
+/*fonts*/
+@font-face{
+font-family:Cicle Fina ;
+src:url(../fonts/Cicle Fina.ttf);
+}
+@font-face{
+font-family:Colobrate Thin ;
+src:url(../fonts/colaborate-thin.ttf);
+}
+@font-face{
+font-family:Colobrate Thin ;
+src:url(../fonts/colaborate-thin.ttf);
+}
+@font-face{
+font-family:Colobrate Regular ;
+src:url(../fonts/colaborate-regular.ttf);
+}
+@font-face{
+font-family:Colobrate Regular ;
+src:url(../fonts/colaborate-regular.ttf);
+}
+@font-face{
+font-family:HelvaticaLT UltraCompressed ;
+src:url(../fonts/helvetica-lt-ultra-compressed-58dd8d4881c29.ttf);
+}
+@font-face{
+font-family:Bebas ;
+src:url(../fonts/BebasRegular/BebasRegular.ttf);
+}
+@font-face{
+font-family:BebasBold ;
+src:url(../fonts/BebasBold/BebasBold.ttf);
+}
+@font-face {
+font-family: "CenturyGothicRegular";
+src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face{
+    font-family:"SourceSansProBold";
+    src:url(./fonts/SourceSansProBold/SourceSansProBold.ttf);
+}
+@font-face{
+    font-family:"SourceSansProLight";
+    src:url(.//fonts/SourceSansProLight/SourceSansProLight.ttf);
+}
+/*===========================================*/
+
+/*styles*/
+
+
+
+body{
+    background:url(images/background.png) repeat
+}
+.wrapper{
+    margin:0 auto;
+    max-width:1048px;
+    min-width:320px;
+    position:relative;
+}
+
+/*TODO
